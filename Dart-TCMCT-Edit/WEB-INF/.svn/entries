@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="8"
+   name=""
+   committed-date="2006-09-11T09:45:48.907846Z"
+   url="http://wls.cintcm.com/svn/snomedtcmls/TCMCTOntoEdit/WEB-INF"
+   last-author="tmy"
+   kind="dir"
+   uuid="debff3c7-281d-0410-adc5-bd274ee7125b"
+   repos="http://wls.cintcm.com/svn/snomedtcmls"
+   revision="12"/>
+<entry
+   name="log"
+   kind="dir"/>
+<entry
+   name="work"
+   kind="dir"
+   schedule="delete"/>
+<entry
+   committed-rev="8"
+   name="spring.tld"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="0684c989d2c905f9ae9fd7efbdd4fdaa"
+   last-author="tmy"
+   kind="file"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="8"
+   name="TCMLSOntoEdit-servlet.xml"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="5938a30b3b69100c93b8e4d7e7e8b7ad"
+   last-author="tmy"
+   kind="file"/>
+<entry
+   committed-rev="8"
+   name="demolayout.css"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="85786e2d23c9983d4839e7e49521f6a6"
+   last-author="tmy"
+   kind="file"/>
+<entry
+   name="jsp"
+   kind="dir"/>
+<entry
+   committed-rev="23"
+   name="web.xml"
+   text-time="2006-09-14T05:49:14.015000Z"
+   committed-date="2006-09-19T03:34:49.929000Z"
+   checksum="c2a9d5e91626ff951ec478090b062030"
+   last-author="tmy"
+   kind="file"
+   revision="23"/>
+<entry
+   committed-rev="8"
+   name=".cvsignore"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="e0bda8197e58839fe38b56adbfec55ff"
+   last-author="tmy"
+   kind="file"/>
+<entry
+   name="classes"
+   kind="dir"/>
+<entry
+   committed-rev="8"
+   name="demolayout.js"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="47cccc7c08f36331a14ea6e85318b8c4"
+   last-author="tmy"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="8"
+   name=""
+   committed-date="2006-09-11T09:45:48.907846Z"
+   url="http://wls.cintcm.com/svn/snomedtcmls/TCMCTOntoEdit/WEB-INF/lib"
+   last-author="tmy"
+   kind="dir"
+   uuid="debff3c7-281d-0410-adc5-bd274ee7125b"
+   repos="http://wls.cintcm.com/svn/snomedtcmls"
+   revision="12"/>
+<entry
+   committed-rev="40"
+   name="nls_charset12.jar"
+   text-time="2004-11-11T07:00:00.000000Z"
+   committed-date="2007-04-12T10:10:23.648975Z"
+   checksum="d955486d8a6b563d12fa3967274f0982"
+   last-author="tmy"
+   kind="file"
+   prop-time="2007-04-12T10:07:52.609375Z"
+   revision="40"/>
+<entry
+   committed-rev="8"
+   name="jstl.jar"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="d8b9dd588c40adcc4755cc27d91c8df5"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-11T11:23:56.781000Z"/>
+<entry
+   committed-rev="40"
+   name="dom4j.jar"
+   text-time="2005-12-29T07:00:00.000000Z"
+   committed-date="2007-04-12T10:10:23.648975Z"
+   checksum="85e3e7dfd9d039da0b8ea0a46129323f"
+   last-author="tmy"
+   kind="file"
+   prop-time="2007-04-12T10:07:52.562500Z"
+   revision="40"/>
+<entry
+   committed-rev="8"
+   name="commons-configuration-1.1.jar"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="7631bdf77843465ab2a39cfe9621ce6b"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-11T11:23:57.000000Z"/>
+<entry
+   committed-rev="8"
+   name="hsqldb.jar"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="fb579fb99e02b2f8aedd8e633cc43db1"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-11T11:23:58.390000Z"/>
+<entry
+   committed-rev="8"
+   name="commons-dbcp-1.2.1.jar"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="2666cfeb7be74b1c2d8a1665ae21192c"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-11T11:23:58.484000Z"/>
+<entry
+   committed-rev="8"
+   name="sitemesh-2.2.1.jar"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="0319d63dfedce3c1ecc5b2a2d10b68db"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-11T11:23:58.984000Z"/>
+<entry
+   committed-rev="8"
+   name="commons-pool-1.2.jar"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="07f3697c37ae0b14d6cc429a3202e64c"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-11T11:24:02.828000Z"/>
+<entry
+   committed-rev="8"
+   name="log4j-1.2.9.jar"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="6a44d84b72897f28189f4792e2015b93"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-11T11:23:55.031000Z"/>
+<entry
+   committed-rev="40"
+   name="ojdbc14.jar"
+   text-time="2005-01-24T07:00:00.000000Z"
+   committed-date="2007-04-12T10:10:23.648975Z"
+   checksum="96a84154237a315dd28813d334c11c77"
+   last-author="tmy"
+   kind="file"
+   prop-time="2007-04-12T10:07:52.671875Z"
+   revision="40"/>
+<entry
+   committed-rev="8"
+   name="commons-collections-3.1.jar"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="d1dcb0fbee884bb855bb327b8190af36"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-11T11:23:56.250000Z"/>
+<entry
+   committed-rev="8"
+   name="jdom.jar"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="0b8f97de82fc9529b1028a77125ce4f8"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-11T11:23:56.500000Z"/>
+<entry
+   committed-rev="8"
+   name="junit.jar"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="1f40fb782a4f2cf78f161d32670f7a3a"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-11T11:23:56.609000Z"/>
+<entry
+   committed-rev="40"
+   name="commons-logging.jar"
+   text-time="2005-05-22T07:00:00.000000Z"
+   committed-date="2007-04-12T10:10:23.648975Z"
+   checksum="9cda4e218c8e737d53d7aeaa44a22214"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-12T02:24:00.000000Z"
+   revision="40"/>
+<entry
+   name="tcmlsv2.0-api.jar"
+   kind="file"
+   deleted="true"
+   revision="40"/>
+<entry
+   committed-rev="8"
+   name="classes12.jar"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="36a636ecb5944d3e4819ed72dff806f0"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-11T11:24:02.640000Z"/>
+<entry
+   committed-rev="8"
+   name="standard.jar"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="e56f6a326555b0192208464567b11c2c"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-11T11:24:03.843000Z"/>
+<entry
+   committed-rev="40"
+   name="spring.jar"
+   text-time="2007-03-19T10:26:28.000000Z"
+   committed-date="2007-04-12T10:10:23.648975Z"
+   checksum="722e1834ff9dcd7840ef75c0c1dcc2cd"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-12T02:24:10.000000Z"
+   revision="40"/>
+</wc-entries>

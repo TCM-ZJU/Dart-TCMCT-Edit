@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="40"
+   name=""
+   committed-date="2007-04-12T10:10:23.648975Z"
+   url="http://wls.cintcm.com/svn/snomedtcmls/TCMCTOntoEdit/war"
+   last-author="tmy"
+   kind="dir"
+   repos="http://wls.cintcm.com/svn/snomedtcmls"
+   revision="40"/>
+<entry
+   committed-rev="40"
+   name="TCMCTOntoEdit.war"
+   text-time="2007-03-20T01:29:22.000000Z"
+   committed-date="2007-04-12T10:10:23.648975Z"
+   checksum="1a1d3e9f3f76623f04d94c65eca95c44"
+   last-author="tmy"
+   kind="file"
+   prop-time="2007-04-12T10:07:52.640625Z"/>
+</wc-entries>

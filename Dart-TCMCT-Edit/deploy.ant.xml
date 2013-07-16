@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<project name="Export TCMLSOntoEdit" default="deploy" basedir=".">
+<property  name="destdir" value="ant"></property>
+<property  name="webinfdir" value="${destdir}/WEB-INF"></property>
+<target name="init">
+		<echo>Init</echo>
+		<delete dir="${destdir}"/>
+		<mkdir dir="${destdir}"/>
+		<mkdir dir="${webinfdir}"/>
+		<mkdir dir="${webinfdir}/classes"/>
+		<mkdir dir="${webinfdir}/lib"/>
+</target>
+<target name="copysources" depends="init">
+	<mkdir dir="${webinfdir}/sources"/>
+	<copy todir="${webinfdir}/sources">
+		<fileset dir="H:\EclipseWorkspace\TCMLSOntoEdit\src">
+			<include name="**/*.*"/>
+		</fileset>
+		<fileset dir="H:\EclipseWorkspace\TCMLSOntoEdit\WEB-INF\src">
+			<include name="**/*.*"/>
+		</fileset>
+		<fileset dir="H:\EclipseWorkspace\TCMLSOntoEdit\work">
+			<include name="**/*.*"/>
+		</fileset>
+		<fileset dir="H:\EclipseWorkspace\TCMLSOntoEdit\webapp\work">
+			<include name="**/*.*"/>
+		</fileset>
+	</copy>
+	<jar destfile="${webinfdir}/sources.jar">
+		<fileset dir="${webinfdir}/sources">
+			<include name="**/*.*"/>
+		</fileset>
+	</jar> 
+	<delete dir="${webinfdir}/sources"/>
+</target>
+<target name="copyclasses" depends="init">
+	<copy todir="${webinfdir}/classes">
+		<fileset dir="H:\EclipseWorkspace\TCMLSOntoEdit\work">
+			<include name="**/*.class"/>
+			<include name="**/*.properties"/>
+		</fileset>
+		<fileset dir="H:\EclipseWorkspace\TCMLSOntoEdit\bin">
+			<include name="**/*.class"/>
+			<include name="**/*.properties"/>
+		</fileset>
+	</copy>
+</target>
+<target name="copywebressources" depends="init">
+	<copy todir="${destdir}">
+		<fileset dir="H:\EclipseWorkspace\TCMLSOntoEdit\src">
+			<include name="**/*.jsp"/>
+			<include name="**/*.htm"/>
+			<include name="**/*.html"/>
+			<include name="**/*.xml"/>
+			<include name="**/*.xsl"/>
+			<include name="**/*.js"/>
+			<include name="**/*.css"/>
+			<include name="**/*.gif"/>
+			<include name="**/*.jpg"/>
+			<include name="**/*.jpeg"/>
+			<include name="**/*.png"/>
+			<include name="**/*.pdf"/>
+			<include name="**/*.txt"/>
+		</fileset>
+		<fileset dir="H:\EclipseWorkspace\TCMLSOntoEdit\WEB-INF\src">
+			<include name="**/*.jsp"/>
+			<include name="**/*.htm"/>
+			<include name="**/*.html"/>
+			<include name="**/*.xml"/>
+			<include name="**/*.xsl"/>
+			<include name="**/*.js"/>
+			<include name="**/*.css"/>
+			<include name="**/*.gif"/>
+			<include name="**/*.jpg"/>
+			<include name="**/*.jpeg"/>
+			<include name="**/*.png"/>
+			<include name="**/*.pdf"/>
+			<include name="**/*.txt"/>
+		</fileset>
+		<fileset dir="H:\EclipseWorkspace\TCMLSOntoEdit\work">
+			<include name="**/*.jsp"/>
+			<include name="**/*.htm"/>
+			<include name="**/*.html"/>
+			<include name="**/*.xml"/>
+			<include name="**/*.xsl"/>
+			<include name="**/*.js"/>
+			<include name="**/*.css"/>
+			<include name="**/*.gif"/>
+			<include name="**/*.jpg"/>
+			<include name="**/*.jpeg"/>
+			<include name="**/*.png"/>
+			<include name="**/*.pdf"/>
+			<include name="**/*.txt"/>
+		</fileset>
+		<fileset dir="H:\EclipseWorkspace\TCMLSOntoEdit\webapp\work">
+			<include name="**/*.jsp"/>
+			<include name="**/*.htm"/>
+			<include name="**/*.html"/>
+			<include name="**/*.xml"/>
+			<include name="**/*.xsl"/>
+			<include name="**/*.js"/>
+			<include name="**/*.css"/>
+			<include name="**/*.gif"/>
+			<include name="**/*.jpg"/>
+			<include name="**/*.jpeg"/>
+			<include name="**/*.png"/>
+			<include name="**/*.pdf"/>
+			<include name="**/*.txt"/>
+		</fileset>
+	</copy>
+</target>
+<target name="copywebinf" depends="init">
+	<copy todir="${webinfdir}">
+		<fileset dir="./webapp/WEB-INF">
+			<include name="web.xml"/>
+			<include name="*.tld"/>
+		</fileset>
+	</copy>
+</target>
+<target name="makejar" depends="init,copyclasses">
+	<mkdir dir="${webinfdir}/lib"/>
+	<copy file="H:\EclipseWorkspace\TCMLSOntoEdit\WEB-INF\lib\standard.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="H:\EclipseWorkspace\TCMLSOntoEdit\WEB-INF\lib\spring.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="C:\Program Files\Java\jdk1.5.0_04\jre\lib\jsse.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="C:\Program Files\Java\jdk1.5.0_04\jre\lib\jce.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="C:\Program Files\Java\jdk1.5.0_04\jre\lib\ext\sunjce_provider.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="C:\eclipse\plugins\TOMCAT_1.0.3\tomcat\includes\servlet.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="H:\EclipseWorkspace\TCMLSOntoEdit\WEB-INF\lib\jdom.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="C:\Program Files\Java\jdk1.5.0_04\jre\lib\rt.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="H:\EclipseWorkspace\TCMLSOntoEdit\WEB-INF\lib\commons-logging.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="H:\EclipseWorkspace\TCMLSOntoEdit\WEB-INF\lib\hsqldb.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="C:\Program Files\Java\jdk1.5.0_04\jre\lib\ext\sunpkcs11.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="C:\eclipse\plugins\TOMCAT_1.0.3\tomcat\includes\jsp.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="H:\EclipseWorkspace\TCMLSOntoEdit\WEB-INF\lib\sitemesh-2.2.1.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="C:\Program Files\Java\jdk1.5.0_04\jre\lib\charsets.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="C:\Program Files\Java\jdk1.5.0_04\jre\lib\ext\dnsns.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="G:\jakarta-tomcat-5.0.30\common\lib\jasper-runtime.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="H:\EclipseWorkspace\TCMLSOntoEdit\WEB-INF\lib\junit.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="C:\Program Files\Java\jdk1.5.0_04\jre\lib\ext\localedata.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="H:\EclipseWorkspace\TCMLSOntoEdit\WEB-INF\lib\log4j-1.2.9.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="H:\EclipseWorkspace\TCMLSOntoEdit\WEB-INF\lib\jstl.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="G:\jakarta-tomcat-5.0.30\common\lib\servlet-api.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="H:\EclipseWorkspace\TCMLSOntoEdit\WEB-INF\lib\tcmls-api.jar" todir="${webinfdir}/lib"></copy>
+	<copy file="G:\jakarta-tomcat-5.0.30\common\lib\jsp-api.jar" todir="${webinfdir}/lib"></copy>
+	<jar destfile="${webinfdir}/lib/ezrms.jar">
+		<fileset dir="${webinfdir}/classes">
+			<include name="**/*.*"/>
+		</fileset>
+	</jar> 
+	<delete dir="${webinfdir}/classes"/>
+</target>
+<target name="deploy" depends="copysources, copywebressources, copywebinf, makejar">
+	<echo>End Deploy jars</echo>
+</target>
+</project>

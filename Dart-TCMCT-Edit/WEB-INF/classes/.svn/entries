@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://wls.cintcm.com/svn/snomedtcmls"
+   revision="12"
+   url="http://wls.cintcm.com/svn/snomedtcmls/TCMCTOntoEdit/src"
+   last-author="tmy"
+   uuid="debff3c7-281d-0410-adc5-bd274ee7125b"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   kind="dir"
+   name=""
+   committed-rev="8"/>
+<entry
+   kind="dir"
+   name="cn"/>
+<entry
+   checksum="2b5d8380defec24d11cedaa4de58729b"
+   last-author="tmy"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   name="log4j.properties"
+   kind="file"
+   committed-rev="8"/>
+</wc-entries>

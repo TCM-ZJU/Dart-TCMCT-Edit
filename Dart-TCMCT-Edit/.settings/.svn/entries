@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://wls.cintcm.com/svn/snomedtcmls"
+   revision="12"
+   url="http://wls.cintcm.com/svn/snomedtcmls/TCMCTOntoEdit/.settings"
+   last-author="tmy"
+   uuid="debff3c7-281d-0410-adc5-bd274ee7125b"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   name=""
+   kind="dir"
+   committed-rev="8"/>
+<entry
+   checksum="7da50c1096e33600ea3affa17b9fcb42"
+   last-author="tmy"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   name="com.genuitec.jboss.ide.eclipse.xdoclet.run.prefs"
+   kind="file"
+   committed-rev="8"/>
+<entry
+   checksum="5df6f42ee2acda6454ff13d48f8b84f6"
+   last-author="tmy"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   name="org.eclipse.core.resources.prefs"
+   kind="file"
+   committed-rev="8"/>
+<entry
+   checksum="19c9c16635495571be6e56891d223963"
+   last-author="tmy"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   name="org.eclipse.jdt.core.prefs"
+   kind="file"
+   committed-rev="8"/>
+<entry
+   checksum="853a43cd333f4944ef4bd240b2ffa709"
+   last-author="tmy"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   name="org.eclipse.jdt.ui.prefs"
+   kind="file"
+   committed-rev="8"/>
+</wc-entries>

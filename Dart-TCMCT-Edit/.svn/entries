@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="10"
+   name=""
+   committed-date="2006-09-11T10:04:16.679156Z"
+   url="http://wls.cintcm.com/svn/snomedtcmls/TCMCTOntoEdit"
+   last-author="tmy"
+   kind="dir"
+   uuid="debff3c7-281d-0410-adc5-bd274ee7125b"
+   repos="http://wls.cintcm.com/svn/snomedtcmls"
+   revision="12"/>
+<entry
+   name="work"
+   kind="dir"
+   schedule="delete"/>
+<entry
+   name="demo"
+   kind="dir"/>
+<entry
+   committed-rev="40"
+   name=".tomcatplugin"
+   text-time="2007-03-19T02:14:02.000000Z"
+   committed-date="2007-04-12T10:10:23.648975Z"
+   checksum="0ea34ca08a131f201c1a9ed3d39ae2e5"
+   last-author="tmy"
+   kind="file"
+   revision="40"/>
+<entry
+   committed-rev="8"
+   name=".project"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="4f2d4c58731e9f3cb17410b0a159b689"
+   last-author="tmy"
+   kind="file"/>
+<entry
+   name="themes"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="WEB-INF"
+   kind="dir"/>
+<entry
+   name="war"
+   kind="dir"/>
+<entry
+   committed-rev="40"
+   name="build.xml"
+   text-time="2007-03-20T01:23:42.000000Z"
+   committed-date="2007-04-12T10:10:23.648975Z"
+   checksum="d5d4be5b7cc31edd26853e1879eab10d"
+   last-author="tmy"
+   kind="file"
+   revision="40"/>
+<entry
+   committed-rev="40"
+   name=".classpath"
+   text-time="2007-03-19T10:26:38.000000Z"
+   committed-date="2007-04-12T10:10:23.648975Z"
+   checksum="a470d146f23cb757492e42dcffed764c"
+   last-author="tmy"
+   kind="file"
+   revision="40"/>
+<entry
+   name="script"
+   kind="dir"/>
+<entry
+   name="bin"
+   kind="dir"/>
+<entry
+   committed-rev="8"
+   name="index.html"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="120b12e92544dcdbb721ff2760787d79"
+   last-author="tmy"
+   kind="file"/>
+<entry
+   committed-rev="8"
+   name="deploy.ant.xml"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="68cca4e505cca464602abe6d8cd6b544"
+   last-author="tmy"
+   kind="file"/>
+<entry
+   committed-rev="8"
+   name=".cvsignore"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="67e92c8765a9bc7fb2d335c459de9eb5"
+   last-author="tmy"
+   kind="file"/>
+<entry
+   name=".settings"
+   kind="dir"/>
+</wc-entries>

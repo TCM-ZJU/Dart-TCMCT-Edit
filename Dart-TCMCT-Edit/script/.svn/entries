@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="12"
+   repos="http://wls.cintcm.com/svn/snomedtcmls"
+   url="http://wls.cintcm.com/svn/snomedtcmls/TCMCTOntoEdit/script"
+   last-author="tmy"
+   uuid="debff3c7-281d-0410-adc5-bd274ee7125b"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   kind="dir"
+   name=""
+   committed-rev="8"/>
+<entry
+   revision="29"
+   checksum="133c48d449e82e9ffa0fdef950f37ba6"
+   last-author="tmy"
+   text-time="2006-09-14T05:27:32.937000Z"
+   committed-date="2006-09-26T02:47:59.470000Z"
+   kind="file"
+   name="net.js"
+   committed-rev="29"/>
+<entry
+   checksum="b6c191ed40f926011abd81b4b4751211"
+   last-author="tmy"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   kind="file"
+   name="qooxdoo.js"
+   committed-rev="8"/>
+</wc-entries>

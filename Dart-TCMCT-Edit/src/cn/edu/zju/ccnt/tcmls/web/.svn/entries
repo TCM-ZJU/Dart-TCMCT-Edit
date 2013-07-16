@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="8"
+   name=""
+   committed-date="2006-09-11T09:45:48.907846Z"
+   url="http://wls.cintcm.com/svn/snomedtcmls/TCMCTOntoEdit/src/cn/edu/zju/ccnt/tcmls/web"
+   last-author="tmy"
+   kind="dir"
+   uuid="debff3c7-281d-0410-adc5-bd274ee7125b"
+   repos="http://wls.cintcm.com/svn/snomedtcmls"
+   revision="12"/>
+<entry
+   committed-rev="26"
+   name="EscapeUnescape.java"
+   text-time="2006-09-14T06:04:36.562000Z"
+   committed-date="2006-09-19T03:37:45.106000Z"
+   checksum="9356808f6a1cb85ce1e8369608588837"
+   last-author="tmy"
+   kind="file"
+   revision="26"/>
+<entry
+   committed-rev="40"
+   name="TCMLSController.java"
+   text-time="2007-03-23T07:25:28.000000Z"
+   committed-date="2007-04-12T10:10:23.648975Z"
+   checksum="72d382eb93e96039692a1d6623ff48f1"
+   last-author="tmy"
+   kind="file"
+   revision="40"/>
+<entry
+   committed-rev="29"
+   name="LoginController.java"
+   text-time="2006-09-25T01:36:54.328000Z"
+   committed-date="2006-09-26T02:47:59.470000Z"
+   checksum="99b36563ae5f68f81e1f75a8eae2ae20"
+   last-author="tmy"
+   kind="file"
+   revision="29"/>
+</wc-entries>

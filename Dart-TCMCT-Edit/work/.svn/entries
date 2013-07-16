@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="8"
+   name=""
+   committed-date="2006-09-11T09:45:48.907846Z"
+   url="http://wls.cintcm.com/svn/snomedtcmls/TCMCTOntoEdit/work"
+   last-author="tmy"
+   kind="dir"
+   uuid="debff3c7-281d-0410-adc5-bd274ee7125b"
+   repos="http://wls.cintcm.com/svn/snomedtcmls"
+   revision="12"/>
+<entry
+   committed-rev="8"
+   name="tldCache.ser"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="bf24979d00f3c4c4c6e842de9817754d"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-11T11:23:20.328000Z"/>
+<entry
+   committed-rev="8"
+   name="SESSIONS.ser"
+   text-time="2006-09-11T09:45:48.907000Z"
+   committed-date="2006-09-11T09:45:48.907846Z"
+   checksum="3bdbf73cd646221d2fe89c1e5b884b16"
+   last-author="tmy"
+   kind="file"
+   prop-time="2006-09-12T02:23:20.359000Z"/>
+</wc-entries>
